@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import React from "react";
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Header />
         <main className="mb-16">{children}</main>
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );

@@ -6,7 +6,7 @@ type Props = {};
 const Footer = (props: Props) => {
   return (
     <footer className="text-gray-700">
-      <Container className="flex items-center justify-between py-4">
+      <Container className="flex flex-col items-center justify-between gap-4 py-4 md:flex-row">
         <div className="flex items-center justify-between gap-6">
           <p>&copy; 2024 Designed & Developed by Affan</p>
         </div>

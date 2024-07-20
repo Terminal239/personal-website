@@ -44,6 +44,10 @@
     @apply text-[1rem] md:text-[1.1rem];
   }
 
+  p.main-text {
+    @apply text-[.875rem] sm:text-[1.2rem] md:text-[1.44rem] lg:text-[1.563rem];
+  }
+
   small {
     @apply text-[0.889rem] sm:text-[0.833rem] lg:text-[0.8rem];
   }

@@ -21,7 +21,7 @@ const Hero = (props: Props) => {
           </span>
         </h1>
         <div className="xl:mr-8">
-          <p className="mx-auto mb-6 text-center text-[0.875rem] text-gray-700 sm:mb-12 sm:text-[1.1rem] md:w-3/4 md:text-[1.2rem] lg:text-[1.25rem] xl:w-full xl:text-left">
+          <p className="main-text mx-auto mb-6 text-center text-gray-700 sm:mb-12 md:w-3/4 xl:w-full xl:text-left">
             Driven by a passion for building seamless and engaging user experiences, I&apos;m an aspiring full-stack developer eager to contribute to innovative projects. I thrive
             in collaborative environments and am constantly seeking opportunities to learn and grow alongside fellow developers.
           </p>

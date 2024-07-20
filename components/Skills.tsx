@@ -7,7 +7,7 @@ const Skills = (props: Props) => {
   return (
     <Container>
       <h2 className="mb-4 text-center">Skills & Technologies</h2>
-      <p className="mx-auto mb-8 text-center text-[.875rem] text-gray-700 sm:mb-16 sm:text-[1.2rem] md:w-2/3 md:text-[1.44rem] lg:text-[1.563rem]">
+      <p className="main-text mx-auto mb-8 text-center text-gray-700 sm:mb-16 md:w-2/3">
         I&apos;m proficient in a variety of technologies and tools, constantly expanding my skillset to deliver the best solutions.
       </p>
       <div className="mx-auto grid grid-cols-3 justify-items-center gap-y-4 sm:gap-y-8 lg:grid-cols-5">

@@ -1,6 +1,7 @@
 import {
   ESLintIcon,
   ExpressIcon,
+  FirebaseIcon,
   JavaIcon,
   MongoDBIcon,
   MySQLIcon,
@@ -18,6 +19,10 @@ const skills = [
   {
     name: "Java",
     icon: JavaIcon,
+  },
+  {
+    name: "Firebase",
+    icon: FirebaseIcon,
   },
   {
     name: "Python",
@@ -68,7 +73,8 @@ const projects = [
     alt: "Project 1",
     title: "Kanban Task Management System",
     description:
-      "Efficient Kanban task management app built with React, Redux Toolkit, and Tailwind CSS. Drag-and-drop tasks, subtasks, and project organization for seamless productivity.",
+      "Provides a user-friendly interface for organizing projects and tasks. Key features include a drag-and-drop Kanban board, task and subtask management, user authentication with email validation, and even two-factor authentication for enhanced security. ",
+    techStack: ["React", "Firebase", "Tailwind CSS"],
     githubLink: "https://github.com/Terminal239/Kanban-Task-Management",
     liveSiteLink: "https://kanban-task-management-application.netlify.app/",
   },
@@ -77,7 +83,9 @@ const projects = [
     image: "/projects/ecommerce-website.png",
     alt: "Project 2",
     title: "Full Stack E-Commerce Website",
-    description: "A basic e-commerce website built with React, Redux Toolkit, Tailwind. Features product display, shopping cart functionality, and a checkout process.",
+    description:
+      "E-commerce project with features such as product browsing and searching, detailed product pages with customer reviews, a streamlined shopping cart and checkout process, and secure user authentication and login. ",
+    techStack: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
     githubLink: "https://github.com/Terminal239/ecommerce-website",
     liveSiteLink: "https://ecommerce-website-06qf.onrender.com/",
   },
@@ -86,7 +94,9 @@ const projects = [
     image: "/projects/planets-fact-site.png",
     alt: "Project 3",
     title: "Planets Fact Site",
-    description: "A responsive, multi-page Planets Fact Site solution built with React, Next.js, and SASS.",
+    description:
+      "Responsive web application showcasing information about different planets. It features a dynamic layout that adapts to various screen sizes, interactive elements with hover states, and detailed planet pages with togglable content sections.",
+    techStack: ["Next.js", "SASS"],
     githubLink: "https://github.com/Terminal239/planets-fact-site",
     liveSiteLink: "https://planets-fact-site-website.netlify.app",
   },

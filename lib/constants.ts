@@ -106,7 +106,7 @@ const projects = [
     alt: "Project 4",
     title: "Frontend Mentor Challenges",
     description: "This repository contains the solutions to the challenges I attempted at the website.",
-    githubLink: "https://github.com/Terminal239/planets-fact-site",
+    githubLink: "https://github.com/Terminal239/FrontEndMentor-Challenges",
   },
 ];
 

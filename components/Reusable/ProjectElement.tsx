@@ -23,8 +23,8 @@ const ProjectElement = ({ project, index }: Props) => {
 
   return (
     <div key={project.id} className={`mx-auto flex flex-col items-start gap-6 overflow-hidden md:w-[740px] lg:w-full lg:flex-row ${index % 2 === 1 ? "lg:flex-row-reverse" : ""}`}>
-      <div className="size-full h-full min-h-[256px] rounded sm:h-[296px] md:h-[416px] lg:h-[396px] lg:flex-[4]">
-        {loading ? <Skeleton /> : <Image src={project.image} alt={project.alt} width={1200} height={400} className="size-full rounded object-contain object-top" />}
+      <div className="size-full h-full min-h-[256px] sm:h-[296px] md:h-[416px] lg:h-[396px] lg:flex-[4]">
+        {loading ? <Skeleton /> : <Image src={project.image} alt={project.alt} width={1200} height={400} className="size-full object-contain object-top" />}
       </div>
       <div className="flex flex-col gap-2 lg:flex-[3]">
         <h3 className="font-bold">{project.title}</h3>

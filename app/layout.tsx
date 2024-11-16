@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={nunito.className}>
         <Header />
-        <main className="mb-16">{children}</main>
+        <main className="mb-24">{children}</main>
         <Footer />
         <SpeedInsights />
         <Analytics />

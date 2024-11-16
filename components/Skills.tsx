@@ -14,9 +14,9 @@ const Skills = (props: Props) => {
         {skills.map((skill) => (
           <div key={skill.name} className="flex flex-col items-center sm:gap-2">
             <div className="flex size-[96px] scale-75 items-center justify-center rounded bg-orange-200 sm:scale-100">
-              <skill.icon width={64} height={64} />
+              <skill.icon className="size-12" />
             </div>
-            <p className="text-[.875rem] font-bold md:text-[1.2rem] lg:text-[1.25rem]">{skill.name}</p>
+            <p className="font-bold">{skill.name}</p>
           </div>
         ))}
       </div>

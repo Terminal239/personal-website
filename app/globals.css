@@ -21,15 +21,15 @@
   }
 
   h2 {
-    @apply text-[1.802rem] md:text-[2.488rem] lg:text-[3.052rem];
+    @apply text-[1.602rem] md:text-[2.488rem] lg:text-[2.852rem];
   }
 
   h3 {
-    @apply text-[1.602rem] md:text-[2.074rem] lg:text-[2.441rem];
+    @apply text-[1.402rem] md:text-[2.074rem] lg:text-[2.241rem];
   }
 
   h4 {
-    @apply text-[1.424rem] md:text-[1.728rem] lg:text-[1.953rem];
+    @apply text-[1.324rem] md:text-[1.728rem] lg:text-[1.753rem];
   }
 
   h5 {
@@ -41,11 +41,15 @@
   }
 
   p {
-    @apply text-[1rem] md:text-[1.1rem];
+    @apply text-[1rem];
   }
 
   p.main-text {
-    @apply text-[.875rem] sm:text-[1.2rem] md:text-[1.44rem] lg:text-[1.563rem];
+    @apply text-[.875rem] sm:text-[1.15rem] md:text-[1.24rem] lg:text-[1.363rem];
+  }
+
+  p.project-text {
+    @apply text-[.875rem] sm:text-[1.05rem] md:text-[1.14rem] lg:text-[1.163rem];
   }
 
   small {
